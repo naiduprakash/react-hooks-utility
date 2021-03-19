@@ -11,7 +11,7 @@ export default function useLocalStorageState(key, initialValue) {
     return value;
   });
 
-  useEffect(() => {
+  React.useEffect(() => {
     window.localStorage.setItem(key, state);
   }, [state]);
 
