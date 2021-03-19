@@ -6,7 +6,7 @@ export default function useLocalStorageState(key, initialValue) {
     try {
       value = JSON.parse(window.localStorage.getItem(key) || JSON.stringify(initialValue));
     } catch (e) {
-      value = defaultValue;
+      value = initialValue;
     }
     return value;
   });
