@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-utility",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "a set of custom reusable hooks for React",
   "main": "src/index.js",
   "scripts": {
